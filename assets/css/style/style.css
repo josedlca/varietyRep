@@ -1,0 +1,367 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+/* ============================================
+                Fonts
+=============================================== */
+@font-face{
+    font-family:"MyriadPro-light";
+    src: url(../../fonts/myriad/myriadpro-light.otf);
+}
+@font-face{
+    font-family:"MyriadPro-bold";
+    src: url(../../fonts/myriad/MyriadPro-Bold.otf);
+}
+@font-face{
+    font-family:"Rokkitt";
+    src: url(../../fonts/Rokkitt-Regular.ttf);
+}
+@font-face{
+    font-family:"Quicksand";
+    src: url(../../fonts/Quicksand-Light.otf);
+}
+
+/* ============================================
+                use more
+=============================================== */
+
+.txt-r{
+    text-align: right !important;
+}
+.txt-l{
+    text-align: left !important;
+}
+.txt-c{
+    text-align: center !important;
+}
+.txt-j{
+    text-align: justify !important;
+}
+
+/* ============================================
+                use more
+=============================================== */
+
+/* ============================================
+                Background big
+=============================================== */
+
+.bigBackground{
+    background-image: url(../../img/bgImg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    padding: 60px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.bigBackground__nav li a,
+.bigBackground__logo{
+    font-family: "MyriadPro-light";
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+.bigBackground__nav li:not(:last-child){
+    padding-right:  30px;
+}
+.bigBackground__nav{
+    display: inline-block;
+}
+
+.bigBackground__nav-items{
+    padding: 0;
+    margin:0 ;
+}
+
+.bigBackground__nav-items li{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+}
+.bigBackground__nav-items li a{
+    text-decoration: none;
+    transition: all .2s;
+}
+.bigBackground__nav-items li a:hover{
+    text-decoration: underline;
+    color: #e74c3c;
+}
+
+.bigBackground__titles{
+    padding: 150px 0;
+}
+
+.bigBackground__title h1{
+    font-size: 50px;
+    font-family: "Rokkitt";
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.bigBackground__underTitle h4{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+}
+.bigBackground__btn a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Rokkitt";
+    padding: 20px 50px;
+    color: rgb(255, 255, 255);
+    background: #e74c3c;
+    border: solid 5px rgba(241,150,140, .9);
+    transition: ease-in .2s;
+}
+
+.bigBackground__btn a:hover{
+    color: #e74c3c;
+    background:rgb(255, 255, 255);
+}
+
+.bigBackground__btn{
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    transform: translateY(50%);
+}
+
+/* ============================================
+                DESCRIPTION
+=============================================== */
+.description{
+    padding: 150px 0;
+}
+.description__title{
+    padding-bottom: 50px;
+}
+.description__title h2{
+    font-size: 36px;
+    color: rgb(231, 76, 60);
+    font-family: "MyriadPro-bold";
+    font-weight: bold;
+    margin: 0;
+}
+.description__text{
+    padding-bottom: 70px;
+}
+.description__text p{
+    font-size: 18px;
+    color: rgb(149, 165, 166);
+    font-family: "MyriadPro-light";
+    margin: 0;
+}
+
+.description__icon{
+    padding-bottom: 30px;
+}
+
+.description__icon i{
+    font-size: 64px;
+    color: #e74c3c;
+    transition: all .3s;
+}
+.description__icon i:hover{
+    transform: translateY(-10px);
+}
+
+.description__little-title{
+    padding-bottom: 30px;
+}
+
+.description__little-title h5{
+    font-size: 18px;
+    color: rgb(231, 76, 60);
+    font-family: "MyriadPro-bold";
+    margin: 0;
+}
+.description__little-text{
+    padding: 0 30px;
+}
+.description__little-text p{
+    font-size: 18px;
+    color: rgb(149, 165, 166);
+    font-family: "MyriadPro-light";
+}
+/* ============================================
+                    GALLERY
+=============================================== */
+
+.btn-gallery{
+    display: inline-block;
+}
+.btn-gallery a{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(255, 255, 255);  
+    font-family: "Rokkitt";   
+    padding: 8px 16px;
+    background: rgb(231, 76, 60);  
+    transition: ease-in-out .2s;              
+}
+
+.btn-gallery a:hover{
+    color: #e74c3c;
+    background:rgb(255, 255, 255);
+    border: 4px solid #e74c3c; 
+}
+
+.galery{
+    padding-bottom: 140px;
+}
+.galery__seePart{
+    padding-bottom: 20px;
+}
+
+.galery__imgs{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.galery__imgs img{
+    width: 100%;
+    height: 100%;
+}
+.galery__hover{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    background-color: #e74c3c; 
+    border-top: 5px solid #982e24;
+    padding: 20px 20px;
+    opacity: 0;
+    transition: ease .5s;
+}
+.galery__hover h3{
+    font-size: 30px;
+    font-family: "Rokkitt";
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+.galery__hover p{
+    font-size: 15px;
+    font-family: "MyriadPro-light";
+    margin: 0;
+    color: rgb(157, 59, 49);
+}
+
+.galery__imgs:hover .galery__hover{
+    opacity: 1;
+}
+
+/* ============================================
+                    GET IN TOUCH
+=============================================== */
+.contact{
+    padding-bottom: 150px;
+}
+.contact__title{
+    padding-bottom: 70px;
+}
+.contact__title h2{
+    font-size: 45px;
+    color: #e74c3c;
+    font-family: "Rokkitt";
+    margin: 0;
+}
+
+.contact__inp input{
+    width: 100%;
+    height: 70px;
+    font-size: 32px;
+    outline: none;
+    margin-bottom: 30px;
+    color: #cecece;
+    font-family: "Rokkitt";
+    background: #e4e8e8;
+    border: none;
+    padding-left: 30px;
+}
+
+.contact__txtarea textarea{
+    width: 100%;
+    height: 250px;
+    font-size: 32px;
+    outline: none;
+    color: #cecece;
+    font-family: "Rokkitt";
+    background: #e4e8e8;
+    border: none;
+    padding-left: 30px;
+}
+
+/* ============================================
+                    FOOTER
+=============================================== */
+.footer{
+    position: relative;
+}
+.footer__inside{
+    background-color: #e74c3c;
+    padding: 140px 0 70px 0;
+    position: relative;
+}
+.footer__oneside p{
+    font-size: 24px;
+    font-family: "Rokkitt";
+    color: rgb(255, 255, 255);
+    margin:0;
+}
+
+.footer__twoside p{
+    font-size: 24px;
+    font-family: "Rokkitt";
+    color: rgb(255, 255, 255);
+    margin:0;
+}
+
+.footer__father{
+    padding-bottom: 80px;
+}
+.footer__social{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    transform: translateY(-50%);
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social__icons{
+    display: inline-block;
+    transition: ease-out .2s;
+}
+
+.social__icons:hover{
+    transform: rotate(10deg);
+}
+.social__icons a{
+    text-decoration: none;
+    top: 0;
+}
+
+.social__icons a i{
+    font-size: 48px;
+    color: rgb(231, 76, 60);
+    background: #f6f6f6;
+    padding: 25px 22px;
+    border: solid 5px rgb(231, 76, 60);
+    
+}
+.social__icons-facebook a i{
+    font-size: 48px;
+    color: rgb(231, 76, 60);
+    background: #f6f6f6;
+    padding: 25px 33px;
+    border: solid 5px rgb(231, 76, 60);
+}
