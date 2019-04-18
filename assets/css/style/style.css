@@ -97,7 +97,7 @@ body{
 }
 .bigBackground__nav-items li a:hover{
     text-decoration: underline;
-    color: #e74c3c;
+    color: #A02112;
 }
 
 .bigBackground__titles{
@@ -123,13 +123,13 @@ body{
     font-family: "Rokkitt";
     padding: 20px 50px;
     color: rgb(255, 255, 255);
-    background: #e74c3c;
+    background: #A02112;
     border: solid 5px rgba(241,150,140, .9);
     transition: ease-in .2s;
 }
 
 .bigBackground__btn a:hover{
-    color: #e74c3c;
+    color: #A02112;
     background:rgb(255, 255, 255);
 }
 
@@ -151,7 +151,7 @@ body{
 }
 .description__title h2{
     font-size: 36px;
-    color: rgb(231, 76, 60);
+    color: #A02112;
     font-family: "MyriadPro-bold";
     font-weight: bold;
     margin: 0;
@@ -161,7 +161,7 @@ body{
 }
 .description__text p{
     font-size: 18px;
-    color: rgb(149, 165, 166);
+    color: #465863;
     font-family: "MyriadPro-light";
     margin: 0;
 }
@@ -172,7 +172,7 @@ body{
 
 .description__icon i{
     font-size: 64px;
-    color: #e74c3c;
+    color: #A02112;
     transition: all .3s;
 }
 .description__icon i:hover{
@@ -185,7 +185,7 @@ body{
 
 .description__little-title h5{
     font-size: 18px;
-    color: rgb(231, 76, 60);
+    color: #A02112;
     font-family: "MyriadPro-bold";
     margin: 0;
 }
@@ -194,7 +194,7 @@ body{
 }
 .description__little-text p{
     font-size: 18px;
-    color: rgb(149, 165, 166);
+    color: #465863;
     font-family: "MyriadPro-light";
 }
 /* ============================================
@@ -210,12 +210,12 @@ body{
     color: rgb(255, 255, 255);  
     font-family: "Rokkitt";   
     padding: 8px 16px;
-    background: rgb(231, 76, 60);  
+    background: #A02112;
     transition: ease-in-out .2s;              
 }
 
 .btn-gallery a:hover{
-    color: #e74c3c;
+    color: #A02112;
     background:rgb(255, 255, 255);
     border: 4px solid #e74c3c; 
 }
@@ -258,7 +258,7 @@ body{
     font-size: 15px;
     font-family: "MyriadPro-light";
     margin: 0;
-    color: rgb(157, 59, 49);
+    color: #A02112;
 }
 
 .galery__imgs:hover .galery__hover{
@@ -313,7 +313,7 @@ body{
     position: relative;
 }
 .footer__inside{
-    background-color: #e74c3c;
+    background-color: #A02112;
     padding: 140px 0 70px 0;
     position: relative;
 }
@@ -360,7 +360,7 @@ body{
 
 .social__icons a i{
     font-size: 48px;
-    color: rgb(231, 76, 60);
+    color: #A02112;
     background: #f6f6f6;
     padding: 25px 22px;
     border: solid 5px rgb(231, 76, 60);
@@ -368,7 +368,7 @@ body{
 }
 .social__icons-facebook a i{
     font-size: 48px;
-    color: rgb(231, 76, 60);
+    color: #A02112;
     background: #f6f6f6;
     padding: 25px 33px;
     border: solid 5px rgb(231, 76, 60);
