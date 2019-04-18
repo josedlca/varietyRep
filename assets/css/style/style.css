@@ -55,13 +55,13 @@ body{
 =============================================== */
 
 .bigBackground{
-    background-image: url(../../img/imgs/bgImg.png);
+	background-image: linear-gradient(to right bottom, rgba(120, 78, 74, 0.8), rgba(120, 78, 74, 0.8)), url(../../img/imgs/bgImg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat; 
     padding: 60px 0;
     position: relative;
     display: flex;
-    justify-content: center;
+	justify-content: center;
 }
 .bigBackground__nav li a,
 .bigBackground__logo{
