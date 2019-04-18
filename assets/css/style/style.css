@@ -9,19 +9,23 @@ body{
                 Fonts
 =============================================== */
 @font-face{
-    font-family:"MyriadPro-light";
+	font-family:"MyriadPro-light";
+	font-display: swap;
     src: url(../../fonts/myriad/myriadpro-light.otf);
 }
 @font-face{
-    font-family:"MyriadPro-bold";
+	font-family:"MyriadPro-bold";
+	font-display: swap;
     src: url(../../fonts/myriad/MyriadPro-Bold.otf);
 }
 @font-face{
-    font-family:"Rokkitt";
+	font-family:"Rokkitt";
+	font-display: swap;
     src: url(../../fonts/Rokkitt-Regular.ttf);
 }
 @font-face{
-    font-family:"Quicksand";
+	font-family:"Quicksand";
+	font-display: swap;
     src: url(../../fonts/Quicksand-Light.otf);
 }
 
