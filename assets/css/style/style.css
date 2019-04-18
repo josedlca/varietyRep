@@ -287,11 +287,15 @@ body{
     font-size: 32px;
     outline: none;
     margin-bottom: 30px;
-    color: #cecece;
+    color: #4A4A4A;;
     font-family: "Rokkitt";
     background: #e4e8e8;
     border: none;
     padding-left: 30px;
+}
+
+.contact__inp input::placeholder{
+	color: #4A4A4A;
 }
 
 .contact__txtarea textarea{
@@ -299,11 +303,15 @@ body{
     height: 250px;
     font-size: 32px;
     outline: none;
-    color: #cecece;
+    color: #4A4A4A;
     font-family: "Rokkitt";
     background: #e4e8e8;
     border: none;
     padding-left: 30px;
+}
+
+.contact__txtarea textarea::placeholder{
+	color: #4A4A4A;
 }
 
 /* ============================================
